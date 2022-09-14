@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://qasim9872.github.io/react-amazon-transcribe-streaming-demo",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "HOST=0.0.0.0 react-scripts start",
     "prebuild": "npm run build:css",
